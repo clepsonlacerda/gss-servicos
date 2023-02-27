@@ -13,39 +13,39 @@ function AboutUs() {
             </header>
             
             <article className="testemunhas-article">
-                <h1>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</h1>
                 <span className="image"><img src="/images/img-1.jpg" /></span>
                 <p>
-                    <span className="name">Funcionário</span>
-                    <span>Cargo</span>
+                    <span className="name">Gabriel</span>
+                    <span>Designer e Gestor de tráfego </span>
                 </p>
+                <h1>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</h1>
             </article>
                 
             <article className="testemunhas-article">
-                <h1>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</h1>
                 <span className="image"><img src="/images/img-2.jpg" /></span>
                 <p>
-                    <span className="name">Funcionário</span>
-                    <span>Cargo</span>
+                    <span className="name">Saulo</span>
+                    <span>Vendedor</span>
                 </p>
+                <h1>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</h1>
             </article>
                 
             <article className="testemunhas-article">
-                <h1>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</h1>
                 <span className="image"><img src="images/testemunha-03.jpg" /></span>
                 <p>
-                    <span className="name">Funcionário</span>
-                    <span>Cargo</span>
+                    <span className="name">Wesley</span>
+                    <span>Gestor de tráfego</span>
                 </p>
+                <h1>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</h1>
             </article>
 
             <article className="testemunhas-article">
-                <h1>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</h1>
                 <span className="image"><img src="images/testemunha-03.jpg" /></span>
                 <p>
-                    <span className="name">Funcionário</span>
-                    <span>Cargo</span>
+                    <span className="name">Clepson</span>
+                    <span>Desenvolvedor</span>
                 </p>
+                <h1>Responsável por toda a parte operacional de criação de códigos, implementação e soluções programáticas</h1>
             </article>
         </div>
     </section>
