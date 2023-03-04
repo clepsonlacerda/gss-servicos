@@ -1,0 +1,93 @@
+.contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url('/public/images/bg.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conatiner {
+    background: rgba(255,255,255, .7);
+    border: 1px solid #ccc;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+.conatiner h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 30px
+}
+.conatiner form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.conatiner form input {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.conatiner form textarea {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 300px;
+    margin-bottom: 10px;
+    resize: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.conatiner form button {
+    background-color: #242424;
+    color: #fff;
+    height: 30px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+.conatiner form button:hover {
+    color: #0EFC4E;
+}
+
+.container-footer {
+    background-color: #242424;
+    width: 400px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    max-width: 1000px;
+    margin: 20px auto 0 auto;
+}
+
+.social-media-icon {
+    color: #fff;
+    font-size: 24px;
+    transition: all .4s ease-in-out;
+}
+.social-media-icon:hover {
+    color: #0EFC4E;
+}
+
+/*bg-fixed*/
+.bg-fixed {
+    background-size: cover; /* ajusta a imagem dentro do box */
+    background-position: center;
+    background-attachment: fixed; /* qnd rolar a barra de rolagem a imagem vai ficar fixa*/
+    background-repeat: no-repeat;
+}

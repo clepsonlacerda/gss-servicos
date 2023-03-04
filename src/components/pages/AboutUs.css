@@ -52,9 +52,11 @@
     
 }
 
+.testemunhas-article .image {
+    background-size: cover;
+}
 .testemunhas-article .image img {
-    width: 250px;
-    height: 250px;
+    width: 85px;
 }
 
 .testemunhas-article .image {
@@ -73,7 +75,7 @@
     height: 83px;
 }
 .testemunhas-article .name {
-    color: #a70606;
+    color: #242424;
     font-weight: bold;
 }
 

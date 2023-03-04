@@ -10,8 +10,8 @@ function Cards() {
             <div className="cards__wrapper">
                 <ul className="cards__items">
                     <CardItem src="images/img-9.jpg"
-                              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-                              label="Aventure"
+                              text='Seu produto ou negócio chegará as pessoas certas.'
+                              label="Público Alvo"
                               path="/services" />
                     <CardItem src='images/img-2.jpg'
                               text='Travel through the Islands of Bali in a Private Cruise'
