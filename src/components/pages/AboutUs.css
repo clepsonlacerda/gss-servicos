@@ -11,10 +11,13 @@
     font-size: 20px;
 }
 .section-header h1 {
+    color: #242424;
     font-size: 38px;
-    font-weight: normal;
+    font-weight: bold;
 }
-
+.section-header p {
+    color: #242424;
+}
 
 .content {
     max-width: 960px;
@@ -34,6 +37,7 @@
 .testemunhas-article {
     float: left;
     background: rgba(255,255,255, .7);
+    color: #242424;
     width: 100%;
     font-size: 12px;
     padding: 15px;
@@ -75,8 +79,12 @@
     height: 83px;
 }
 .testemunhas-article .name {
+    font-size: 15px;
     color: #242424;
     font-weight: bold;
+}
+.testemunhas-article .position {
+    color: #242424;
 }
 
 @media (min-width: 768px){

@@ -69,7 +69,9 @@ function Footer() {
               <img src='/images/logo.png' />
             </Link>
           </div>
+
           <small className='website-rights'>GSS Serviços © 2023</small>
+          
           <div className='social-icons'>
             <a className='social-icon-link facebook'
                   href='https://facebook.com'
@@ -83,7 +85,7 @@ function Footer() {
                   aria-label='Instagram' >
               <i className='fab fa-instagram' />
             </Link>
-            <Link className='social-icon-link youtube'
+            {/* <Link className='social-icon-link youtube'
                   to='/'
                   target='_blank'
                   aria-label='Youtube' >
@@ -94,7 +96,7 @@ function Footer() {
                   target='_blank'
                   aria-label='Twitter' >
               <i className='fab fa-twitter' />
-            </Link>
+            </Link> */}
             <Link className='social-icon-link twitter'
                   to='/'
                   target='_blank'

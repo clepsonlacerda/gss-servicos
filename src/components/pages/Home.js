@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../App.css'
 import Card from '../Cards'
+import Customer from '../Customer'
 import Footer from '../Footer'
 import HeroSection from '../HeroSection'
 
@@ -9,6 +10,7 @@ function Home() {
     <>
       <HeroSection />
       <Card />
+      <Customer  />
       <Footer />
     </>
   )
