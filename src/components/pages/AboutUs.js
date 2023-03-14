@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Footer from '../Footer'
 import './AboutUs.css'
 
 function AboutUs() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <>
             <section className="section testemunhas bg-fixed">

@@ -7,7 +7,11 @@ video {
 }
 
 .hero-container {
-    /* background: url('images/img-home.jpg') center center/cover no-repeat; */
+    background: url('/public/images/bg-home.png') center center/cover no-repeat;
+    background-attachment: fixed; /* qnd rolar a barra de rolagem a imagem vai ficar fixa*/
+    /* z-index: -1; */
+}
+.hero-container {
     height: 100vh;
     width: 100%;
     display: flex;
@@ -34,10 +38,11 @@ video {
 
 .hero-btns {
     margin-top: 32px;
+    text-align: center;
 }
 
 .hero-btns .btn {
-    margin: 6px;
+    margin: 0px;
 }
 
 .fa-play-circle {
@@ -52,6 +57,10 @@ video {
 }
 
 @media screen and (max-width: 768px) {
+    .hero-container {
+        background-attachment: local;
+    }
+
     .hero-container > h1 {
         font-size: 50px;
         margin-top: -100px;
@@ -61,10 +70,15 @@ video {
         font-size: 30px;
     }
 
-    .btn-mobile {
+    .hero-btns .btn {
+        margin-bottom: 15px;
+    }
+    
+
+    /* .btn-mobile {
         display: block;
         text-decoration: none;
-    }
+    } */
 
     .btn {
         width: 100%;

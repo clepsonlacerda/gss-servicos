@@ -6,11 +6,11 @@ import './HeroSection.css'
 function HeroSection() {
   return (
     <div className='hero-container'>
-        <video src="/videos/video-2.mp4" autoPlay loop muted />
+        {/* <video src="/videos/video-2.mp4" autoPlay loop muted playsinline webkit-playsinline /> */}
         <h1>GSS SERVIÇOS</h1>
         <p>Como podemos ajudar?</p>
         <div className='hero-btns'>
-            <Button className='btns'
+            <Button className='btn'
                     route='/servicos'
                     buttonStyle='btn--outline'
                     buttonSize='btn--large' >

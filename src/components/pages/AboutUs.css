@@ -31,7 +31,7 @@
 }
 
 .testemunhas {
-    padding: 100px 0; /* afastamento de 160px em cima e em baixo. e 0 dos lados */
+    padding: 50px 0; /* afastamento de 160px em cima e em baixo. e 0 dos lados */
     background-image: url('/public/images/bg.png');
 }
 .testemunhas-article {

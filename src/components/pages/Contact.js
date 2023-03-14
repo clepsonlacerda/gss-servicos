@@ -1,10 +1,14 @@
-import React, { useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import emailjs from '@emailjs/browser';
 import Footer from '../Footer'
 import './Contact.css'
 
 function Contact() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const [showMessageSuccess, setShowMessageSuccess] = useState(false);
   const [showMessageError, setShowMessageError] = useState(false);
