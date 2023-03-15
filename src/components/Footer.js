@@ -63,46 +63,46 @@ function Footer() {
         </div> */}
 
         <section className='social-media'>
-        <div className='social-media-wrap'>
-          <div className='footer-logo'>
-            <Link to='/' className='social-logo'>
-              <img src='/images/logo.png' />
-            </Link>
-          </div>
+          <div className='social-media-wrap'>
+            <div className='footer-logo'>
+              <Link to='/' className='social-logo'>
+                <img src='/images/logo.png' />
+              </Link>
+            </div>
 
-          <small className='website-rights'>GSS Serviços © 2023</small>
-          
-          <div className='social-icons'>
-            <a className='social-icon-link facebook'
-                  href='https://facebook.com'
-                  target='_blank'
-                  aria-label='Facebook' >
-              <i className='fab fa-facebook-f' />
-            </a>
-            <Link className='social-icon-link instagram'
-                  to='https://instagram.com/gss.servicos'
-                  target='_blank'
-                  aria-label='Instagram' >
-              <i className='fab fa-instagram' />
-            </Link>
-            {/* <Link className='social-icon-link youtube'
-                  to='/'
-                  target='_blank'
-                  aria-label='Youtube' >
-              <i className='fab fa-youtube' />
-            </Link>
-            <Link className='social-icon-link twitter'
-                  to='/'
-                  target='_blank'
-                  aria-label='Twitter' >
-              <i className='fab fa-twitter' />
-            </Link> */}
-            <Link className='social-icon-link twitter'
-                  to='https://wa.me/5588981236875'
-                  target='_blank'
-                  aria-label='LinkedIn' >
-              <i className='fab fa-whatsapp' />
-            </Link>
+            <small className='website-rights'>GSS Serviços © 2023</small>
+            
+            <div className='social-icons'>
+              <a className='social-icon-link facebook'
+                    href='https://www.facebook.com/htza003'
+                    target='_blank'
+                    aria-label='Facebook' >
+                <i className='fab fa-facebook-f' />
+              </a>
+              <Link className='social-icon-link instagram'
+                    to='https://instagram.com/gss.servicos'
+                    target='_blank'
+                    aria-label='Instagram' >
+                <i className='fab fa-instagram' />
+              </Link>
+              {/* <Link className='social-icon-link youtube'
+                    to='/'
+                    target='_blank'
+                    aria-label='Youtube' >
+                <i className='fab fa-youtube' />
+              </Link>
+              <Link className='social-icon-link twitter'
+                    to='/'
+                    target='_blank'
+                    aria-label='Twitter' >
+                <i className='fab fa-twitter' />
+              </Link> */}
+              <Link className='social-icon-link twitter'
+                    to='https://wa.me/5588981236875'
+                    target='_blank'
+                    aria-label='LinkedIn' >
+                <i className='fab fa-whatsapp' />
+              </Link>
           </div>
         </div>
       </section>

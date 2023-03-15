@@ -9,32 +9,32 @@ function Cards() {
         <div className="cards__container">
             <div className="cards__wrapper">
                 <ul className="cards__items">
-                    <CardItem src="images/img-9.jpg"
+                    <CardItem src="images/public-alvo.png"
                               text='Seu produto ou negócio chegará as pessoas certas.'
                               label="Público Alvo"
                               path="/services" />
-                    <CardItem src='images/img-2.jpg'
-                              text='Travel through the Islands of Bali in a Private Cruise'
-                              label='Luxury'
+                    <CardItem src='images/publicacoes.png'
+                              text='Criamos as melhores publicações para sua rede social.'
+                              label='Publicações'
                               path='/services' />
                 </ul>
                 <ul className='cards__items'>
                   <CardItem
-                    src='images/img-3.jpg'
-                    text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-                    label='Mystery'
+                    src='images/visibilidade.png'
+                    text='Com tráfego pago, um anúncio pode maximizar a visibilidade do seu empreendimento.'
+                    label='Visibilidade'
                     path='/services'
                   />
                   <CardItem
-                    src='images/img-4.jpg'
-                    text='Experience Football on Top of the Himilayan Mountains'
-                    label='Adventure'
+                    src='images/aprimoramento.png'
+                    text='Utilizamos as melhores ferramentas de tráfego pago com uma ótima capacidade de segmentação.'
+                    label='Aprimoramento'
                     path='/products'
                   />
                   <CardItem
-                    src='images/img-8.jpg'
-                    text='Ride through the Sahara Desert on a guided camel tour'
-                    label='Adrenaline'
+                    src='images/baixo-investimento.png'
+                    text='Para começar, não são necessárias grandes quantidades de investimento.'
+                    label='Baixo investimento'
                     path='/sign-up'
                   />
                 </ul>

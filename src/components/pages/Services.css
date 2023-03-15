@@ -32,15 +32,15 @@
     box-sizing: border-box;
 }
 .imagem-1  {
-    background-image: url('/public/images/img-7.jpg');
+    background-image: url('/public/images/custos.png');
     border-radius: 10px 0 0 10px;
 }
 .imagem-2  {
-    background-image: url('/public/images/img-5.jpg');
+    background-image: url('/public/images/notificacoes.png');
     border-radius: 0px 10px 10px 0px;
 }
 .imagem-3  {
-    background-image: url('/public/images/img-8.jpg');
+    background-image: url('/public/images/divulgacoes.png');
     border-radius: 10px 0 0 10px;
 }
 

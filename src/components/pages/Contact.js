@@ -68,13 +68,13 @@ function Contact() {
         </div>
         <div className="container-footer">
           <div className="social-media">
-            <Link className='social-media-icon' to='/'
+            <Link className='social-media-icon' to='https://wa.me/5588981236875'
                   target='_blank'
                   aria-label='LinkedIn' >
               <i className='fab fa-whatsapp' />
             </Link>
             <Link className='social-media-icon'
-                  href='https://facebook.com'
+                  to='https://www.facebook.com/htza003'
                   target='_blank'
                   aria-label='Facebook' >
               <i className='fab fa-facebook-f' />
