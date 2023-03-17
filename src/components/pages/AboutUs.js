@@ -26,9 +26,9 @@ function AboutUs() {
 
                     <article className="testemunhas-article">
                         <div className="info">
-                            <span className="image"><img src="images/testemunha-03.jpg" /></span>
+                            <span className="image"><img src="images/team/wesley.jpeg" /></span>
                             <p>
-                                <span className="name">Wesley</span>
+                                <span className="name">Wesley Saraiva</span>
                                 <span className='position'>CEO e Gestor de tráfego</span>
                             </p>
                         </div>
@@ -39,9 +39,9 @@ function AboutUs() {
 
                     <article className="testemunhas-article">
                         <div className="info">
-                            <span className="image"><img src="/images/img-1.jpg" /></span>
+                            <span className="image"><img src="/images/team/gabriel.jpeg" /></span>
                             <p>
-                                <span className="name">Gabriel</span>
+                                <span className="name">Gabriel Alcântara</span>
                                 <span className='position' >Designer e Gestor de tráfego </span>
                             </p>
                         </div>
@@ -67,7 +67,7 @@ function AboutUs() {
                         <div className="info">
                             <span className="image"><img src="images/team/clepson.jpeg" /></span>
                             <p>
-                                <span className="name">Clepson</span>
+                                <span className="name">Clepson Lacerda</span>
                                 <span className='position' >Desenvolvedor</span>
                             </p>
                         </div>

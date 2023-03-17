@@ -11,10 +11,10 @@ function Customer() {
         </header>
         
         <article className="customer_article">
-          <span className="image"><img src="images/logo.png" /></span>
-          <span className="image"><img src="images/logo.png" /></span>
-          <span className="image"><img src="images/logo.png" /></span>
-          <span className="image"><img src="images/logo.png" /></span>
+          <span className="image"><img alt="Faturepag" src="images/customers/faturepag.png" /></span>
+          <span className="image"><img alt="Loteria fort" src="images/customers/loteria-fort.png" /></span>
+          <span className="image"><img alt="Ramon cell" src="images/customers/ramon-cell.png" /></span>
+          <span className="image"><img alt="Rogerio imports" src="images/customers/rogerio-imports.png" /></span>
         </article>
       </div>
     </div>

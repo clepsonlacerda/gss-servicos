@@ -22,27 +22,32 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-items: center;
 }
 .customer_article .image {
     background-size: cover;
     margin-top: 40px;
 }
 .customer_article .image img {
-    width: 100px;
+    width: 150px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 600px) {
     .customer_container {
         width: 70%;
     }
     .customer_article {
         flex-wrap: wrap;
     }
-
+    
     .customer_article .image {
         width: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .customer_article .image img {
+        width: 100px;
     }
 }
