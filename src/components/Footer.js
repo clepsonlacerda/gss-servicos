@@ -98,7 +98,7 @@ function Footer() {
                 <i className='fab fa-twitter' />
               </Link> */}
               <Link className='social-icon-link twitter'
-                    to='https://wa.me/5588981236875'
+                    to='https://wa.me/558881767090?text=Olá,%20gostaria%20de%20aumentar%20minhas%20vendas'
                     target='_blank'
                     aria-label='LinkedIn' >
                 <i className='fab fa-whatsapp' />

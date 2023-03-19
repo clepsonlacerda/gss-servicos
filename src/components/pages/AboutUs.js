@@ -54,7 +54,7 @@ function AboutUs() {
                         <div className="info">
                             <span className="image"><img src="/images/team/saulo.jpeg" /></span>
                             <p>
-                                <span className="name">Saulo</span>
+                                <span className="name">Saulo Araújo</span>
                                 <span className='position' >Consultor</span>
                             </p>
                         </div>

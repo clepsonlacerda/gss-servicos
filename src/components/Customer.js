@@ -7,7 +7,7 @@ function Customer() {
       <div className="customer_container">
         <header className="customer_header">
           <h1>Nossos Clientes</h1>
-          <p>Esses são alguns dos nosso clientes que usam nossos serviços</p>
+          {/* <p>Esses são alguns dos nosso clientes que usam nossos serviços</p> */}
         </header>
         
         <article className="customer_article">
